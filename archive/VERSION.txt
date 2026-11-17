@@ -1,2 +1,2 @@
-Historical v1.0.0. Not the current release. Install only one sprint DLL. See VERSION_HISTORY.txt in the bundle.
-KNOWN BROKEN: Escape menu runtime error. Do not install for normal play.
+Historical v1.0.1. Not the current release. Install only one sprint DLL. See VERSION_HISTORY.txt in the bundle.
+Exact source snapshot was not retained for this version; compiled DLL only.

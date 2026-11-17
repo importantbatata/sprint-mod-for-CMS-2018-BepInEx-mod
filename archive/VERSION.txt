@@ -1,2 +1,2 @@
-Historical v1.1.0. Not the current release. Install only one sprint DLL. See VERSION_HISTORY.txt in the bundle.
+Historical v1.2.0. Not the current release. Install only one sprint DLL. See VERSION_HISTORY.txt in the bundle.
 Exact source snapshot was not retained for this version; compiled DLL only.

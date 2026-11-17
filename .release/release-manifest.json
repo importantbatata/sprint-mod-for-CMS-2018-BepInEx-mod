@@ -1,0 +1,44 @@
+[
+  {
+    "version": "1.0.0",
+    "asset": "SPRINT_MOD_CMS_2018_v1.0.0_ARCHIVE.zip",
+    "prerelease": true,
+    "notes": "Initial build; known broken: opening Escape can trigger System.Action TypeLoadException. Historical reference only.",
+    "source_available": true
+  },
+  {
+    "version": "1.0.1",
+    "asset": "SPRINT_MOD_CMS_2018_v1.0.1_ARCHIVE.zip",
+    "prerelease": false,
+    "notes": "Rebuilt against game runtime libraries; improved menu insertion error handling.",
+    "source_available": false
+  },
+  {
+    "version": "1.0.2",
+    "asset": "SPRINT_MOD_CMS_2018_v1.0.2_ARCHIVE.zip",
+    "prerelease": false,
+    "notes": "Fixed Escape handling, menu restoration on disable, and configuration save failures.",
+    "source_available": true
+  },
+  {
+    "version": "1.1.0",
+    "asset": "SPRINT_MOD_CMS_2018_v1.1.0_ARCHIVE.zip",
+    "prerelease": false,
+    "notes": "Added native pause-menu settings with restored menu controls and input safeguards.",
+    "source_available": false
+  },
+  {
+    "version": "1.2.0",
+    "asset": "SPRINT_MOD_CMS_2018_v1.2.0_ARCHIVE.zip",
+    "prerelease": true,
+    "notes": "Added typed speed input (100\u2013250%) and placed settings above Continue. Typed input has not been verified live in game.",
+    "source_available": false
+  },
+  {
+    "version": "1.3.0",
+    "asset": "SPRINT_MOD_CMS_2018_v1.3.0_PREVIEW.zip",
+    "prerelease": true,
+    "notes": "Footstep playback follows sprint speed, including pitch changes and native high-speed cutoff adjustments. Audio changes and typed input still require live gameplay testing.",
+    "source_available": true
+  }
+]

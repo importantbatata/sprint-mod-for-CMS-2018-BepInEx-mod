@@ -1,0 +1,24 @@
+name: Publish archived mod releases
+on:
+  push:
+    branches: [main]
+    paths: ['.release/**', '.github/workflows/publish-releases.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore version tags
+        run: |
+          git fetch .release/history.bundle 'refs/tags/*:refs/tags/*'
+          git push origin v1.0.0 v1.0.1 v1.0.2 v1.1.0 v1.2.0 v1.3.0
+      - name: Publish original archives and checksums
+        working-directory: .release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 publish.py

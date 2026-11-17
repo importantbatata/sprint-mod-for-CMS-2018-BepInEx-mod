@@ -8,8 +8,6 @@ Customizable sprinting with native pause-menu settings for **Car Mechanic Simula
 
 ## Download
 
-> Release publication is pending. The version links below will become available when the prepared tags and assets are published.
-
 **[Download v1.3.0 preview](https://github.com/importantbatata/sprint-mod-for-CMS-2018-BepInEx-mod/releases/download/v1.3.0/SPRINT_MOD_CMS_2018_v1.3.0_PREVIEW.zip)** · [Release notes](https://github.com/importantbatata/sprint-mod-for-CMS-2018-BepInEx-mod/releases/tag/v1.3.0) · [All versions](https://github.com/importantbatata/sprint-mod-for-CMS-2018-BepInEx-mod/releases)
 
 The newest package includes the plugin DLL, complete source, build script, documentation, and checksums. **v1.3.0 is a preview:** typed speed input and footstep audio changes still need live gameplay testing. For an older version whose native settings menu was user-confirmed working, see [v1.1.0](https://github.com/importantbatata/sprint-mod-for-CMS-2018-BepInEx-mod/releases/tag/v1.1.0).
